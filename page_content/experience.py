@@ -1,5 +1,4 @@
 import streamlit as st
-from components.interactive import display_interactive_chart
 
 def experience_page():
     st.markdown("## Professional Experience")
