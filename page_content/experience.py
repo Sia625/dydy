@@ -5,72 +5,54 @@ def experience_page():
     st.markdown("## Professional Experience")
     
     st.markdown("""
-    ### Data Science Intern
-    **TechCorp Inc.** | *June 2021 - August 2021*
+    ### L'Oréal
+    **Consultant** | *Dec 2024 - Mar 2025*
     
-    - Analyzed customer data to identify patterns and trends using Python and SQL
-    - Developed a machine learning model to predict customer churn with 85% accuracy
-    - Created interactive dashboards using Tableau to visualize key performance indicators
-    - Presented findings and recommendations to senior management
+    - TOP 200 Nationwide
+    - Precision Breakthrough: Identified the core pain point of 73% of male users - oil control needs, and proposed the "All in Oil
+      Control" product strategy. Through over 2,000 questionnaires, it was found that 86% of men with oily skin were willing to pay a
+      30% premium for professional oil-control products.
+    - Activity Design: Led the design of a replaceable essence tube membership system, innovatively integrating the mechanism of "7
+      tubes for 1 nursing service + free skin testing", which was in line with ESG concepts and promoted footfall in offline stores.
+    - Business Results: The plan was adopted by L'Oréal China's innovation team and won the top 200 in L'Oréal's 2025 Mainland China
+      Business Competition.
     """)
     
     st.markdown("""
-    ### Research Assistant
-    **University of XYZ, Department of Computer Science** | *January 2021 - May 2021*
+    ### InTime Commercial Co., Ltd.
+    **Integrated Marketing Department Intern** | *May 2023 - Aug 2023*
     
-    - Assisted professor with research on natural language processing techniques
-    - Implemented and evaluated various machine learning algorithms for text classification
-    - Co-authored a paper that was accepted at a regional computer science conference
-    - Mentored undergraduate students on research methodologies and programming
+    - Omnichannel Marketing Campaign: Planned and executed the 618 Shopping Festival. Collaborated with over 80 brands to launch
+      "best - seller combos" and engaged Xiaohongshu influencers for promotion. Through short - video and live - stream marketing,
+      achieved over 100,000 exposures, grew the follower base by over 6,000, and optimized the SKU mix via data analysis, resulting in
+      an 8% increase in conversion rate.
+    - Event Management: Led the "Tom and Jerry" pop - up store project. Designed interactive elements to attract young consumers,
+      partnered with over 30 clothing brands, and achieved IP - peripheral sales of 80,000 yuan and clothing sales of 50,000 yuan. The
+      optimized interactive layout extended the average customer stay time by 23%.
+    - Social Media Content Strategy: Conceptualized and executed hot - topic campaigns like "Summer Cooling", integrated multi -
+      brand resources, and managed full - funnel content distribution on social media, with an average article readership of over 5,000.
+    - Cross - functional Coordination: Coordinated PR and SP content for various merchant brands, designed event - themed
+      promotional materials, and collaborated with operations and engineering teams. Conducted on - site competitor analysis to enhance
+      store traffic.
     """)
     
     st.markdown("""
-    ### Software Development Intern
-    **InnovateTech Solutions** | *May 2020 - August 2020*
+    ### China Post Group Corporation
+    **Marketing** | *Dec 2022 - Feb 2023*
     
-    - Developed and maintained web applications using Django and React
-    - Collaborated with a team of developers using Agile methodologies
-    - Implemented new features based on user feedback and requirements
-    - Participated in code reviews and testing procedures
+    - Cross - industry Collaboration: Forged a strategic partnership with China National Petroleum Corporation for cross - marketing,
+      achieving a pension - policy exposure of over 50,000 views and acquiring over 500 new postal - card users. Led the monetization of
+      offline financial - lecture traffic, designing a user journey that achieved a 35% on - site conversion rate.
+    - Customer Relationship Enhancement: Conducted a survey of over 200 customers to understand their financial - management
+      needs, developed tailored solutions, and proactively engaged with VIP customers and key institutions to promote China Post's
+      personal - pension services, achieving a 98% customer - satisfaction rate.
     """)
     
     st.markdown("---")
     
-    st.markdown("## Projects")
     
-    projects = [
-        {
-            "title": "Customer Segmentation Analysis",
-            "description": "Used K-means clustering to segment customers based on purchasing behavior.",
-            "skills": ["Python", "scikit-learn", "Pandas", "Matplotlib"],
-            "outcome": "Identified 5 distinct customer segments that informed targeted marketing campaigns."
-        },
-        {
-            "title": "Predictive Maintenance System",
-            "description": "Developed a model to predict equipment failures before they occur.",
-            "skills": ["Python", "TensorFlow", "Time Series Analysis", "IoT"],
-            "outcome": "Reduced downtime by 23% and maintenance costs by 15%."
-        },
-        {
-            "title": "Natural Language Processing for Customer Support",
-            "description": "Created a text classification system to automatically categorize customer support tickets.",
-            "skills": ["Python", "NLTK", "spaCy", "BERT"],
-            "outcome": "Improved response time by 35% and increased customer satisfaction scores."
-        }
-    ]
     
-    for i, project in enumerate(projects):
-        with st.expander(f"{project['title']}", expanded=i==0):
-            st.markdown(f"**Description:** {project['description']}")
-            st.markdown(f"**Skills Used:** {', '.join(project['skills'])}")
-            st.markdown(f"**Outcome:** {project['outcome']}")
-    
-    # Add the interactive visualization demo
-    with st.expander("Interactive Data Visualization Demo", expanded=False):
-        st.markdown("**Description:** An interactive demonstration of various data visualization techniques.")
-        display_interactive_chart()
-    
-    st.markdown("---")
+   
     
     st.markdown("## Professional Skills")
     
@@ -79,12 +61,13 @@ def experience_page():
     with col1:
         st.markdown("""
         ### Technical Skills
-        - **Programming Languages:** Python, R, SQL, JavaScript
-        - **Machine Learning:** scikit-learn, TensorFlow, PyTorch
-        - **Data Processing:** Pandas, NumPy, PySpark
-        - **Visualization:** Matplotlib, Seaborn, Tableau, PowerBI
-        - **Cloud Platforms:** AWS, Azure, Google Cloud
-        - **Web Development:** Django, Flask, React
+        - Data Analytics: Excel (VLOOKUP, PivotTable), SPSS, Adobe Analytics
+        - Marketing Tools: Canva, Photoshop, Social Media Platforms
+        - Market Research: Survey Design, Data Collection, Consumer Insights
+        - Project Management: Event Planning, Cross-functional Coordination
+        - Business Analysis: Market Research, Competitive Analysis, Data Visualization
+        - Language: Chinese (Native), English (TOEFL 106)
+        - Professional Skills: Omnichannel Marketing, Content Marketing, Digital Strategy
         """)
         
     with col2:
@@ -98,4 +81,4 @@ def experience_page():
         - **Adaptability:** Quick learner who thrives in dynamic environments
         """)
     
-    st.markdown("---") 
+    st.markdown("---")

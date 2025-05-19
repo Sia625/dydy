@@ -7,10 +7,8 @@ def contact_page():
     Feel free to reach out to me through any of the following channels:
     
     ### Direct Contact
-    - **Email**: [sarah.johnson@example.com](mailto:sarah.johnson@example.com)
-    - **Phone**: +1 (123) 456-7890
-    - **LinkedIn**: [linkedin.com/in/sarahjohnson](https://linkedin.com/in/sarahjohnson)
-    - **GitHub**: [github.com/sarahjohnson](https://github.com/sarahjohnson)
+    - **Email**: [wusiyecuhk@163.com](mailto:wusiyecuhk@163.com)
+    - **Phone**: +59575126
     """)
     
     st.markdown("### Send Me a Message")
@@ -25,7 +23,7 @@ def contact_page():
         with col2:
             subject = st.text_input("Subject")
             
-        message = st.text_area("Message", height=150)
+        message = st.text_area("Message", height=158)
         
         submitted = st.form_submit_button("Send Message")
         
