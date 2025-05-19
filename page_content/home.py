@@ -6,16 +6,17 @@ def home_page():
     left_col, right_col = st.columns(2)
     left_col.markdown(
         """
-        <h4>吴思叶</h4>
-        <p>市场营销硕士<br>
-        香港中文大学<br>
-        <a href="mailto:wusiyecuhk@163.com">wusiyecuhk@163.com</a></p>
+        <h4>Sarah Johnson</h4>
+        <p>Recent Master's Graduate in Marketing<br>
+        Chinese University of Hong Kong<br>
+        12 Chak Cheung St., Ma Liu Shui, HKSAR<br>
+        <a href="mailto:sarah.johnson@example.com">sarah.johnson@example.com</a></p>
         """,
         unsafe_allow_html=True
     )
 
     # add a photo to the right column
-    image_path = os.path.join("static", "images", "签证照--精修版.jpg")
+    image_path = os.path.join("static", "images", "image.png")
     if os.path.exists(image_path):
         image = Image.open(image_path)
         right_col.image(image, width=200)
@@ -27,7 +28,7 @@ def home_page():
     st.markdown(
         """
         ### About Me
-        I am a recent master's graduate in Big Data Marketing from the University of CUHK, eager to apply my knowledge and skills in a professional setting. During my academic journey, I developed a strong foundation in statistical analysis, machine learning, and data visualization.
+        I am a recent master's graduate in Data Science from the University of XYZ, eager to apply my knowledge and skills in a professional setting. During my academic journey, I developed a strong foundation in statistical analysis, machine learning, and data visualization.
 
         As part of my master's program, I completed several projects that involved working with real-world datasets and applying various data science techniques. These projects allowed me to gain hands-on experience in data preprocessing, exploratory data analysis, model building, and evaluation.
 
